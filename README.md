@@ -6,7 +6,7 @@ A Heroku buildpack for [pandoc](http://pandoc.org).
 
 To install this buildpack run:
 ```
-heroku buildpacks:add https://github.com/illustrativemathematics/pandoc-buildpack.git -a your-app-name
+heroku buildpacks:add https://github.com/Sintatica-AI-powered/pandoc-buildpack.git -a your-app-name
 ```
 The buildpack will be installed on your next push to the app.
 
@@ -19,4 +19,4 @@ from the [pandoc repository](https://github.com/jgm/pandoc/releases).
 * The script then extracts the `pandoc` binary from this archive into `/app/vendor/pandoc/bin`.
 * Finally, the script adds `/app/vendor/pandoc/bin` to the `PATH`.
 
-For details, see the script in [bin/compile](https://github.com/illustrativemathematics/pandoc-buildpack/blob/master/bin/compile).
+For details, see the script in [bin/compile](https://github.com/Sintatica-AI-powered/pandoc-buildpack/blob/master/bin/compile).
